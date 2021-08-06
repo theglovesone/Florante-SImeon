@@ -285,6 +285,24 @@ footer{
 
 }
 
+.hireme {
+    position: relative;
+    margin: auto;
+    height: 120px;
+    width: 1070px;
+    background:#fff;
+    bottom: 140px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.hireme p{
+position: relative;
+text-align: center;
+top: 20px;
+right: 5px;
+left: 5px;
+font-style: italic;
+}
+
 @media only screen and (max-width: 800px) {
     nav ul {
         position: absolute;
