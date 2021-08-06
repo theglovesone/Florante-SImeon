@@ -100,7 +100,7 @@ span{
 
 .services {
     height: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -110,7 +110,7 @@ span{
     width: 320px;
     background-color: #fff;
     padding: 15px;
-    margin:35px;
+    margin:15px;
     height: 550px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
     
@@ -255,8 +255,6 @@ section .service-1:hover{
 
 
 footer{
-    position: absolute;
-    background: #111;
     height: auto;
     width: 100vw;
     padding-top: 0px;
@@ -275,7 +273,7 @@ footer{
     color: #fff;
     word-spacing: 2px;
     text-transform: capitalize;
-    top: 190px;
+    top: 20px;
 }
 .footer-bottom span{
     text-transform: uppercase;
@@ -284,7 +282,6 @@ footer{
     color:#fff;
 
 }
-
 .hireme {
     position: relative;
     margin: auto;
@@ -294,7 +291,7 @@ footer{
     bottom: 140px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
 }
-.hireme p {
+.hireme p{
 position: relative;
 text-align: center;
 top: 20px;
@@ -302,6 +299,7 @@ right: 5px;
 left: 5px;
 font-style: italic;
 }
+
 
 @media only screen and (max-width: 800px) {
     nav ul {
@@ -324,5 +322,3 @@ font-style: italic;
     }
 
    
-    
-    
